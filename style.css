@@ -1,0 +1,162 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #242904;
+    height: 70px;
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+header h1 {
+    color: #ffdd00;
+    font-size: 20px;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 1px -2px 0 #000000, -2px 1px 0 #000000, 2px 2px 0 #000000;
+
+
+}
+
+h1 img {
+    max-width: 70px;
+    max-height: 60px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    outline: 1px 1px 1px white 1px 2px 1px white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #ffdd00;
+    border: 20px blue;
+
+
+}
+
+li a:hover {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 190px;
+    margin-top: -40px;
+}
+
+#main-body {
+    display: flex;
+}
+
+.column-one {
+    flex: 20%;
+    background-color: #242904;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+.column-two {
+    flex: 60%;
+    background-color: white;
+    margin: 0;
+
+
+
+}
+
+.column-three {
+    flex: 20%;
+    background-color: #242904;
+    margin: 0;
+    text-align: center;
+}
+
+#image img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+    border-width: 40px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+.design {
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 #ffdd00, -1px 1px 0 #ffdd00, 1px 1px 0 #ffdd00;
+}
+
+.small {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffdd00;
+}
+
+.column-two img {
+    max-width: 100%;
+
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.pictures {
+    display: flex;
+}
+
+.heading-one {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    background-color: #ffdd00;
+
+}
+
+.card {
+    background-color: #ffdd00;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+
+.customize p {
+    border: 1px dashed blue;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+p a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
